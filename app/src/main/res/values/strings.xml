@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="sit305_quiz_app">SIT305 Quiz App</string>
+    <string name="enter_your_name">Enter your name :</string>
+    <string name="start">Start</string>
+    <string name="welcome_username">Welcome UserName</string>
+    <string name="_1_5">1/5</string>
+    <string name="_2_5">2/5</string>
+    <string name="_3_5">3/5</string>
+    <string name="_4_5">4/5</string>
+    <string name="_5_5">5/5</string>
+    <string name="q1">What is true about Intents in Android?</string>
+    <string name="submit">Submit</string>
+    <string name="q2">How many types of Intents that are available in Android?</string>
+    <string name="q3">Intents are mostly used to perform various actions, select one that is not true?</string>
+    <string name="q4">When an application defines its target component in an Intent, what is that?</string>
+    <string name="next">Next</string>
+    <string name="question_correct_1_answer">Question 1 correct answer</string>
+    <string name="finish">Finish</string>
+    <string name="take_new_quiz">Take New Quiz</string>
+    <string name="view_score">View Score</string>
+</resources>

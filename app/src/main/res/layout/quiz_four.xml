@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:fontFamily="monospace"
+            android:text="@string/_4_5"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_progress">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:background="@color/black"
+                android:layout_weight="1"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:layout_weight="3"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="28dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:text="@string/q4"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFourA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:text="A. Implicit intent"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:background="@drawable/btn_ans" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFourB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:text="B. Explicit intent"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:background="@drawable/btn_ans" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:background="@drawable/bg_normal_btn" />
+
+</LinearLayout>
